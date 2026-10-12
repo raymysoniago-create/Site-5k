@@ -1,6 +1,54 @@
 # Site-5k
 Vender sites
 
+## Dr. Igor Andrade · Estética Avançada · prévia de site
+
+Pasta `dr-igor-andrade/`. Prévia de site one-page para apresentar ao Dr. Igor Andrade
+(Feira de Santana, BA). **Não é o site oficial** até ele aprovar.
+
+```
+dr-igor-andrade/
+  index.html   página inteira, com CSS e JS embutidos
+  img/         fotos recortadas (WebP), imagem de prévia do WhatsApp (og-image.jpg) e ícones
+```
+
+- Para publicar, envie **só a pasta `dr-igor-andrade`** (por exemplo, arrastando no Netlify Drop).
+- Endereço previsto nas tags de prévia: `https://dr-igor-andrade.netlify.app/`. Se o endereço final
+  for outro, troque esse texto em `index.html` (comentário `PUBLICAÇÃO` no topo e no bloco JSON-LD).
+- Fontes Cormorant Garamond e Jost carregadas do Google Fonts.
+- A tag `<meta name="robots" content="noindex, nofollow">` impede o Google de indexar a prévia.
+  Apague essa linha quando o site virar oficial.
+
+### O que precisa ser confirmado com o Dr. Igor (marcado como [EDITAR] na página)
+
+| Item | Situação na prévia |
+| --- | --- |
+| Formação, registro profissional e tempo de atuação | Não informados. Marcados com [EDITAR] na seção Sobre. |
+| Rua, número e complemento | Só o bairro (Ponto Central) foi informado. |
+| Horário de atendimento | Não informado. |
+| Link do Google Maps | O botão "Ver no mapa" faz uma busca pelo nome. Trocar pelo link exato do perfil, se ele quiser. |
+| Nomes dos procedimentos nos antes e depois | "Lábios: preenchimento labial" e "Perfil: harmonização facial" deduzidos das artes. Confirmar. |
+| Uso das fotos de antes e depois | Confirmar a autorização das pacientes e as regras de publicidade do conselho profissional dele. |
+
+### Sobre as imagens
+
+- As faixas pretas dos prints foram recortadas. As fotos de antes e depois foram **apenas recortadas**
+  das artes do Instagram, sem retoque de pele, contorno ou cor.
+- O card da lipo enzimática usa a parte da foto da arte original (mão na cintura). O texto da arte
+  virou texto do card.
+- As artes de estética íntima não foram usadas, como pedido: o card é só texto, com um desenho discreto.
+- O logo dos prints era pequeno demais para ficar nítido, então o monograma "IA" foi recriado em vetor
+  dourado e o nome em Cormorant Garamond. Trocar pelo arquivo original do logo se ele enviar.
+- Pedir as fotos originais em alta resolução melhora muito a nitidez em celulares.
+
+### Como editar
+
+- **WhatsApp**: buscar e substituir `5575992308567` em `index.html`.
+- **Mensagens prontas**: estão no próprio link de cada botão (`?text=...`, já codificado).
+- **Cores e fontes**: variáveis no início do `<style>` (`:root`).
+
+---
+
 ## Lumi Divine Esthetic · prévia de landing page
 
 Prévia conceitual de site para apresentar à equipe da Lumi Divine Esthetic.
