@@ -12,8 +12,9 @@ dr-igor-andrade/
   img/         fotos recortadas (WebP), imagem de prévia do WhatsApp (og-image.jpg) e ícones
 ```
 
-- Para publicar, envie **só a pasta `dr-igor-andrade`** (por exemplo, arrastando no Netlify Drop).
-- Endereço previsto nas tags de prévia: `https://dr-igor-andrade.netlify.app/`. Se o endereço final
+- Para publicar na Vercel, importe o repositório e defina **Root Directory = `dr-igor-andrade`**
+  (Framework Preset: Other, sem comando de build). No Netlify Drop, envie só essa pasta.
+- Endereço previsto nas tags de prévia: `https://dr-igor-andrade.vercel.app/`. Se o endereço final
   for outro, troque esse texto em `index.html` (comentário `PUBLICAÇÃO` no topo e no bloco JSON-LD).
 - Fontes Cormorant Garamond e Jost carregadas do Google Fonts.
 - A tag `<meta name="robots" content="noindex, nofollow">` impede o Google de indexar a prévia.
